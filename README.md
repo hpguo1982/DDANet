@@ -62,4 +62,4 @@ python test.py
 
 ![](./results/Fig-8.png)
 
-*Fig. 8. Details of  tiny lesion cases are shown.*
+*Fig. 8.The visual segmentation results comparison chart for tiny lesion cases. From left to right: the original CT images of input, their corresponding ground truth masks, the results  obtained by our proposed DDANet, IHA-Net, CE-Net, U-Net and Attention UNet. It can be seen that the segmentation of our proposed method is the closest to the  ground truth masks.*
