@@ -2,7 +2,6 @@
 
 DDANet is an enhanced U-Net with deep dilated attentions for th intracerebral hemorrhage segmentation.
 
-
 ## DDANet
 
 ![](./results/Fig-2.png)
@@ -47,22 +46,16 @@ python test.py
 
 ![](./results/Tab-2.png)
 
-![](./results/Tab-3.png)
+![](./results/Tab-3-4-5.png)
 
 ## Results (Qualitative results)
 
-![](./results/Fig-6.PNG)
+![](./results/Fig-3.PNG)
 
-*Fig. 6. The training and test loss for the proposed method.*
-
----
-
-![](./results/Fig-7.PNG)
-
-*Fig. 7. The evaluation metrics employed in this study during the test procedure.*
+*Fig. 3: Training and test procedure. (A) The training and test loss for the proposed method; (B) The evaluation metrics used during the testing phase.*
 
 ---
 
-![](./results/Fig-8.png)
+![](./results/Fig-4.png)
 
-*Fig. 8.The visual segmentation results comparison chart for tiny lesion cases. From left to right: the original CT images of input, their corresponding ground truth masks, the results  obtained by our proposed DDANet, IHA-Net, CE-Net, U-Net and Attention UNet. It can be seen that the segmentation of our proposed method is the closest to the  ground truth masks.*
+*Fig. 4.The visual segmentation results comparison chart for tiny lesion cases. From left to right: the original CT images, their corresponding ground truth masks, and the results  obtained by our DDANet, IHA-Net, CE-Net, U-Net and Attention UNet, respectively.*
